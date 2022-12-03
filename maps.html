@@ -9,22 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/62fa895418.js" crossorigin="anonymous"></script>
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
 
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-        content.style.display = "none";
-        } else {
-        content.style.display = "block";
-        }
-       });
-      }
-     </script>
  </head>
   <body class = 'container'>
     <header class = 'header'>
@@ -46,6 +31,7 @@
     <div class="collapsed_content">
       <p>For Battle Royale, at the start of each season, either a new map will be added, or one of the current maps will receive a map update (MU). Minor map changes, called Town Takeovers (TT), occur sparingly and they come with events. Town Takeovers are modeled after a Legend.</p>
     </div>
+ 
 
     
     </header>
@@ -97,4 +83,20 @@
     </footer>
               
   </body>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+      content.style.display = "none";
+      } else {
+      content.style.display = "block";
+      }
+     });
+    }
+  </script>
 </html>

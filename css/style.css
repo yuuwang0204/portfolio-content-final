@@ -75,7 +75,7 @@ main img {
     font-size: 20px;
   }
 
-.collapsible:hover{
+.active, .collapsible:hover{
     background-color: #ccc;
 }
 .collapsed_content {
