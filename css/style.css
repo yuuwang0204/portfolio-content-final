@@ -32,8 +32,8 @@ header {
 
 header *{
     display: inline;
-
 }
+
 
 header li {
     margin: 20px;
@@ -92,7 +92,9 @@ main img:hover{
     box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
 }
 nav li{
-    font-size: 20px;
+    font-size: 15px;
+    text-align:justify;
+
 }
 nav li:active{
     background-color: white;
@@ -173,9 +175,9 @@ footer {
     
 }
 #myBtn{
-    font-size: 60px;
+    font-size: 20px;
     color: white;
-    border-radius: 2px;
+    border-radius: 6px;
     background-color: #384261;
     float: right;
     -webkit-transition-duration: 0.4s;
@@ -203,8 +205,8 @@ footer {
 }
 
 #logo{
-    animation: Fade_In 3s;
-    height: 70%;
+    animation: Fade_In 5s;
+    height: 60%;
     grid-row: 1 /span 1;
 
 }
