@@ -57,17 +57,17 @@
 
       <!-- The form -->
       <div class="form-popup" id="myForm">
-        <form
+       <form
         action="https://formspree.io/f/xgeqprdk"
         method="POST"
         >
-       <h1>Login</h1>
+        <h1>Login</h1>
 
-       <label for="email"><b>Email</b></label>
+        <label id = "emaillb"for="email"><b>Email</b></label>
         <input type="email"  name="email" required>
 
-        <label for="psw"><b>Password</b></label>
-       <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw" id="pswd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
 
         <button type="submit" class="btn">Login</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
