@@ -163,7 +163,7 @@ h2{
 .pro{
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
-    color: yellow;
+    color: whitesmoke;
 }
 footer {
     background-color:#00274C;
